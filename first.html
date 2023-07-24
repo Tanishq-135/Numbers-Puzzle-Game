@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tanny First Game</title>
+    <link rel="stylesheet" href="game.css" />
+  </head>
+  <body>
+    <div class="gamebody game1">
+      <h1 style="color: green">Easy</h1>
+      <div class="main firstMain">
+        <div class="row">
+          <div class="empty">
+            <input id="one" type="text" placeholder="1" />
+          </div>
+          <div class="empty">
+            <input id="two" type="text" placeholder="2" />
+          </div>
+          <div class="empty">
+            <input id="three" type="text" placeholder="3" />
+          </div>
+        </div>
+        <div class="row">
+          <div class="empty">
+            <input id="four" type="text" placeholder="4" />
+          </div>
+          <div class="block"></div>
+          <div class="empty">
+            <input id="five" type="text" placeholder="5" />
+          </div>
+        </div>
+        <div class="row">
+          <div class="empty">
+            <input id="six" type="text" placeholder="6" />
+          </div>
+          <div class="empty">
+            <input id="seven" type="text" placeholder="7" />
+          </div>
+          <div class="empty">
+            <input id="eight" type="text" placeholder="8" />
+          </div>
+        </div>
+        <div class="row">
+          <div class="block"></div>
+          <div class="empty">
+            <input id="nine" type="text" placeholder="9" />
+          </div>
+          <div class="block"></div>
+        </div>
+        <button onclick="displayValue()" class="btn">Submit</button>
+        <div id="popup">
+          <p id="output"></p>
+          <button class="btn" onclick="closePopup()">Close</button>
+        </div>
+      </div>
+    </div>
+    <script src="first.js"></script>
+  </body>
+</html>

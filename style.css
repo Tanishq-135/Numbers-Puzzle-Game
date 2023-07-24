@@ -1,0 +1,187 @@
+@import url("https://fonts.googleapis.com/css2?family=Cinzel+Decorative&family=Comic+Neue&family=Monofett&family=Special+Elite&family=Xanh+Mono&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Courgette&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.body {
+  background-image: url("./images/main.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.topnav {
+  overflow: hidden;
+  height: 10vh;
+  font-family: "Cinzel Decorative", cursive;
+}
+
+.topnav a {
+  float: left;
+  color: black;
+  padding: 19px 50px;
+  text-decoration: none;
+  border-radius: 50px;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.topnav a:hover {
+  background-color: #6b9fee;
+  color: white;
+}
+
+.topnav a.active {
+  background-color: #6b9fee;
+}
+
+.h1font {
+  font-family: "Cinzel Decorative", cursive;
+  font-size: 70px;
+}
+
+.main {
+  width: 100vw;
+  height: 90vh;
+}
+
+.main h1 {
+  text-align: center;
+}
+
+.main h2 {
+  text-align: center;
+  font-family: "Comic Neue", cursive;
+  font-size: 30px;
+  padding-bottom: 20px;
+}
+
+.main h3 {
+  padding-top: 20px;
+  text-align: center;
+  font-family: "Comic Neue", cursive;
+  font-size: 20px;
+}
+
+.instructions {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("./images/tutorial.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.instructions h1 {
+  font-family: "Cinzel Decorative", cursive;
+  padding-top: 50px;
+  text-align: center;
+  color: #f2f2f2;
+  font-size: 50px;
+}
+
+.instructions h3 {
+  font-family: "Montserrat", sans-serif;
+  margin: 15px 0;
+  padding: 5px 6px;
+  text-align: center;
+  font-size: 25px;
+  color: #43ef5d;
+}
+
+.about {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("./images/about.jpg");
+  background-size: cover;
+  background-position: 100%;
+  text-align: center;
+  font-family: "Courgette", cursive;
+}
+
+.abtdev {
+  padding-top: 70px;
+}
+
+.abtdev h3 {
+  padding-top: 10px;
+}
+
+.abtgm {
+  padding-top: 70px;
+}
+
+.abtgm h3 {
+  padding-top: 10px;
+}
+
+.mainContainer {
+  padding-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  width: 250px;
+  height: 200px;
+  border-radius: 20px;
+  border: 3px solid black;
+}
+
+.container h1 {
+  padding-top: 30px;
+  font-family: "Special Elite", cursive;
+  font-size: 40px;
+}
+
+.container h2 {
+  font-family: "Special Elite", cursive;
+  padding: 10px 0;
+  font-size: 25px;
+}
+
+.first {
+  text-align: center;
+  margin-right: 50px;
+  background-image: url("./images/container1.jpg");
+}
+
+.second {
+  text-align: center;
+  margin-right: 50px;
+  background-image: url("./images/container2.jpg");
+}
+
+.third {
+  text-align: center;
+  margin-right: 50px;
+  background-image: url("./images/container3.jpg");
+}
+
+.fourth {
+  text-align: center;
+  background-image: url("./images/container4.jpg");
+}
+
+.btn {
+  border: 2px solid black;
+  border-radius: 20px;
+  padding: 10px 20px;
+  color: black;
+  background-color: #6b9fee;
+  font-size: 25px;
+  font-weight: bold;
+  cursor: pointer;
+  font-family: "Montserrat", sans-serif;
+}
+
+.btn:hover {
+  color: white;
+  background-color: rgb(79, 81, 79);
+}
